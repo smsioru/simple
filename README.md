@@ -4,7 +4,7 @@ Simple examples of how to work with SMS-IO.RU API
 ## Send message examples
 
 ### PHP
-- [composer.json](http://github.com/smsioru/simple-php-example/composer.json)
+- [composer.json](https://github.com/smsioru/simple-php-example/blob/master/composer.json)
 ```json
 {
   "require": {
@@ -12,7 +12,7 @@ Simple examples of how to work with SMS-IO.RU API
   }
 }
 ```
-- [simple-example.php](http://github.com/smsioru/simple-php-example/simple-example.php)
+- [simple-example.php](https://github.com/smsioru/simple-php-example/blob/master/simple-example.php)
 ```php
 <?php
 require __DIR__ . '/vendor/autoload.php';
@@ -33,11 +33,11 @@ $response = Requests::post($API_BASE, $headers, $message);
 ```
 
 ### Python
-- [requirements.txt](http://github.com/smsioru/simple-python-example/requirements.txt)
+- [requirements.txt](https://github.com/smsioru/simple-python-example/blob/master/requirements.txt)
 ```
 requests
 ```
-- [simple-example.py](http://github.com/smsioru/simple-python-example/simple-example.py)
+- [simple-example.py](https://github.com/smsioru/simple-python-example/blob/master/simple-example.py)
 ```python
 import requests
 
